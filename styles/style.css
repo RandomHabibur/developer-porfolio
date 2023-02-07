@@ -92,3 +92,43 @@ main{
     color: #474747;
     font-weight: 700;
 }
+/* what i do styles */
+.what-i-do{
+    max-width: 1000px;
+    margin: 150px 0;
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.what-desc{
+    margin: 30px 0 50px;
+}
+/* skills */
+.skills-container{
+    text-align: left;
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-around; */
+}
+.skill{
+    margin: 0 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin: 30px 0 20px; 
+}
+.skill-description{
+    color: #757575;
+}
+/* Resume styles */
+.resume-title{
+    margin-bottom: 110px;
+}
